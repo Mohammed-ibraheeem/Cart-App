@@ -10,7 +10,7 @@ function App() {
     <>
       <AppNavbar />
       <Routes>
-        <Route path='/product' element={<Products />} />
+        <Route path='/Cart-App' element={<Products />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/product/:productID' element={<ProductDetails />} />
 

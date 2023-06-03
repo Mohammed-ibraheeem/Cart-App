@@ -10,11 +10,11 @@ function AppNavbar() {
         <>
             <Navbar fixed='top' bg="light" expand="lg" >
                 <Container>
-                    <Link to={"/product"} className='navbar-brand' href="#home"> CardApp </Link>
+                    <Link to={"/Cart-App"} className='navbar-brand' href="#home"> CardApp </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Link to="/product" className='navbar-brand ms-auto my-2' href="#home"> Products </Link>
+                            <Link to="/Cart-App" className='navbar-brand ms-auto my-2' href="#home"> Products </Link>
                             {/* <Link to="/carT" className='navbar-brand' href="#link"> CarT-{cart.length}</Link>*/}
                             <Link to="/carT" class="navbar-brand position-relative ms-auto my-2">
                                 CarT
