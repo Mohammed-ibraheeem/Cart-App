@@ -9,10 +9,7 @@ function App() {
   return (
     <>
       <AppNavbar />
-
       <Routes>
-
-        {/*<Route path='/' element={<App />} />*/}
         <Route path='/product' element={<Products />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/product/:productID' element={<ProductDetails />} />
